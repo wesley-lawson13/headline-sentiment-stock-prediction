@@ -6,5 +6,8 @@ ___
 ## Folder Structure
 
 headline-sentiment-stock-prediction/
-|-- README.md
-|-- sentiment-analysis/: Folder containing the cleaned data, generated baselines, generated word clouds (bag-of-words, tf-idf), as well as the VADER analysis in the *sentiment-modeling.py* file.
+└── README.md
+└── sentiment-analysis/
+    └── Folder containing the cleaned data, generated baselines, generated
+        word clouds (bag-of-words, tf-idf), as well as the VADER analysis
+        in the sentiment-modeling.py file.
