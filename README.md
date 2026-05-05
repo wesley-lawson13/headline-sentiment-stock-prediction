@@ -5,9 +5,18 @@ ___
 
 ## Folder Structure
 
-headline-sentiment-stock-prediction/
-└── README.md
-└── sentiment-analysis/
-    └── Folder containing the cleaned data, generated baselines, generated
-        word clouds (bag-of-words, tf-idf), as well as the VADER analysis
-        in the sentiment-modeling.py file.
+- README.md: The README file for this repository.
+- sentiment-analysis/: Folder containing the cleaned data, generated baselines, generated word clouds (bag-of-words, tf-idf), as well as the VADER analysis in the sentiment-modeling.py file.
+
+___ 
+
+## Executing Files in the sentiment-analysis/ Folder
+
+1. Create a Virtual Environment
+`python -m venv venv`
+
+2. Activate the Virtual Environment
+`source venv/bin/activate`
+
+3. Install Requirements
+`pip install -r requirements.txt`
