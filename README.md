@@ -61,36 +61,5 @@ Below are the non-standard libraries we used in this project. For a more detaile
 - Mistral: The Python Mistral client we used for zero shot, one shot, and three shot learning attempts. [mistralai](https://github.com/mistralai/client-python)
 - VADER: A sentiment analysis tool tuned for social media / news texts. [vaderSentiment](https://github.com/cjhutto/vaderSentiment)
 
-Additionally, here are all the libraries used in the `DJIA_NLP_Prediction.ipynb` file:
-
-*   **Data Handling and Analysis:**
-    *   `pandas` (pd)
-    *   `numpy` (np)
-    *   `datasets` (from Hugging Face)
-
-*   **Natural Language Processing (NLP):**
-    *   `nltk` (Natural Language Toolkit)
-    *   `gensim` (Word2Vec)
-    *   `vaderSentiment` (Sentiment Intensity Analyzer)
-    *   `transformers` (from Hugging Face)
-    *   `mistralai` (Mistral API client)
-
-*   **Machine Learning / Deep Learning Frameworks and Libraries:**
-    *   `tensorflow` (tf)
-    *   `sklearn` (Scikit-learn) - including `metrics`, `ensemble`, `linear_model`, `naive_bayes`, `neighbors`, `neural_network`, `preprocessing`, `svm`
-    *   `keras` (within TensorFlow for `Sequential` model and layers like `Conv1D`, `MaxPooling1D`, `Dropout`, `Dense`, `Flatten`)
-
-*   **Evaluation Metrics:**
-    *   `evaluate` (from Hugging Face, for metrics like accuracy and F1-score)
-
-*   **Utilities:**
-    *   `re` (Regular Expressions)
-    *   `math`
-    *   `time`
-    *   `ast`
-    *   `os`
-
-*   **Google Colab Specific:**
-    *   `google.colab` (`drive`)
-
+Additionally, to see all libraries used, please look at the `DJIA_NLP_Prediction.ipynb` file.
 ___
