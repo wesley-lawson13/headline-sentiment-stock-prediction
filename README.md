@@ -14,7 +14,6 @@ ___
     - `sentiment-modeling.py`: the VADER sentiment analysis file that shows the output of the VADER sentiment scores and descriptors as features for three separate models (logisitic regression, random forest, and a CNN). It also shows the VADER sentiment output for an example day.
     - .py wordcloud files: Generates word clouds based on a bag-of-words (bag-of-words.py) + KNN model, as well as the tf-idf normalized wordclouds. 
     - .png wordcloud files: The output of the python wordcloud scripts.
-- `results/` and `results_no_2008/`: Folders containing training data for the BERT models. Included to allow BERT to not have to retrain itself each time the DJIA_NLP_Prediction.ipynb is ran. Omitted because the folders were too large.
 
 ___ 
 
@@ -43,7 +42,7 @@ To run this notebook:
 
 1. Ensure you have the necessary Google Colab permissions and drive access configured.
 2. Execute the 'Packages' section to install all required libraries.
-3. Run the 'Data Preprocessing' section to load and clean the dataset. This is where you would decide to include / not include the 2008 data as well as set up the output paths to show the results in the generated CSV files.
+3. Run the 'Data Preprocessing' section to load and clean the dataset. This is where you would decide to include / not include the 2008 data as well as set up the output paths to show the results in the generated CSV files. **NOTE:** You will probably have to change the path for saving the results under the 'Keeping Track of the Results' tab.
 4. Proceed through the 'Generate Baselines', 'Bag of Words', 'Word2Vec', 'BERT', 'Mistral', and 'VADER Sentiment Analysis' sections to train and evaluate different models, or do each individually.
 5. Review the results in the generated CSV files in your Google Drive.
 
@@ -93,8 +92,5 @@ Additionally, here are all the libraries used in the `DJIA_NLP_Prediction.ipynb`
 
 *   **Google Colab Specific:**
     *   `google.colab` (`drive`)
-
-*   **Other:**
-    *   `glob` (for pathnames matching a specified pattern - though not directly used, it's imported)
 
 ___
