@@ -6,6 +6,7 @@ ___
 ## Directory Structure
 
 - `README.md`: The README file for this repository.
+- `headline-sentiment-presentation.pdf`: The presentation of our findings.
 - `Combined_News_DJIA.csv` and `upload_DJIA_table.csv`: The imported datasets we used for this project (a copy of each is also in the sentiment-analysis/ folder).
 - `DJIA_NLP_Prediction.ipynb`: The Colab notebook that contains all of our code for this project organized into sections.
 - `model_results_*.csv` files: The generated output for each model. Generated from the DJIA_NLP_Prediction.ipynb file.
